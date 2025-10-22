@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.fieldset {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  border: none;
+}
+
+.input {
+  width: 250px;
+  height: 35px;
+}

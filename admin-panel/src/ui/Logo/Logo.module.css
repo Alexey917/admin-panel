@@ -1,0 +1,23 @@
+.logo {
+  width: 100px;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.logoText {
+  font-weight: 500;
+  font-size: 20px;
+  color: #4a3a52;
+}
+
+.logoLogin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}

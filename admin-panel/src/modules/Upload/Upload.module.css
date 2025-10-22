@@ -1,0 +1,32 @@
+.form {
+  max-width: 600px;
+  margin: 0 auto !important;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.legend {
+  margin-left: 166px;
+  font-family: 'Roboto', sens-serif;
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+  color: #4a3a52;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  width: 1130px;
+}
+
+label {
+  display: inline;
+  width: 150px;
+  font-family: 'Roboto', sens-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: left;
+  color: #4a3a52;
+}

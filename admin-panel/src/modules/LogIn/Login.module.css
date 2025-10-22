@@ -1,0 +1,57 @@
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 1px 1px 10px -2px #213547;
+}
+
+.fieldset {
+  border: none;
+}
+
+.legend {
+  font-family: 'Roboto', sens-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #4a3a52;
+}
+
+.error {
+  font-family: 'Roboto', sens-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: red;
+}
+
+.link {
+  font-family: 'Roboto', sens-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #d62370;
+}
+
+.text {
+  font-family: 'Roboto', sens-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #4a3a52;
+}
+
+.btn {
+  width: 400px;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  background-color: #d62370;
+  cursor: pointer;
+}
